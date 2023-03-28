@@ -1,0 +1,30 @@
+header{
+    background-color: black;
+}
+.jumbo{
+   background-color: rgb(25 188 156); 
+}
+.square-1{
+    height: 300px;
+    background-color: rgb(186, 75, 99) ;
+}
+.square-2{
+    height: 300px;
+    background-color: rgb(28, 164, 181);
+}
+.square-3{
+    height: 300px;
+    background-color: black;
+}
+.square-4{
+    height: 300px;
+    background-color: rgb(27, 131, 193);
+}
+.square-5{
+    height: 300px;
+    background-color: rgb(15, 56, 181);
+}
+.square-6{
+    height: 300px;
+    background-color: rgb(204, 178, 163);
+}
