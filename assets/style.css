@@ -36,5 +36,20 @@ header{
 }
 h1,
 h3{
-    text-align: center;
+    padding-top: 2rem;
+}
+/* footer */
+footer{
+    background-color: rgb(58, 84, 109);
+}
+
+.contents-footer{
+    color: white;
+}
+/* section copyright */
+.copyright{
+    background-color: rgb(43, 62, 80);
+}
+p{
+    padding-top: 1rem;
 }
