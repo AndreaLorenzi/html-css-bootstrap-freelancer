@@ -1,9 +1,11 @@
 header{
     background-color: black;
 }
+
 .jumbo{
    background-color: rgb(25 188 156); 
 }
+/* section portfolio */
 .square-1{
     height: 300px;
     background-color: rgb(186, 75, 99) ;
@@ -27,4 +29,12 @@ header{
 .square-6{
     height: 300px;
     background-color: rgb(204, 178, 163);
+}
+/* section about */
+.about{
+    background-color:  rgb(25 188 156);
+}
+h1,
+h3{
+    text-align: center;
 }
