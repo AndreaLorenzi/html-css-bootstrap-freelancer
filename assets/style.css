@@ -1,7 +1,13 @@
-header{
-    background-color: black;
-}
 
+:root{
+    --nav_upfooter: rgb(44,62,80);
+    --section-green: rgb(25,188,156);
+    --addresses: rgb(58,85,109);
+    --text-white: white;
+}
+nav{
+    background-color: var(--nav_upfooter);
+}
 .jumbo{
    background-color: rgb(25 188 156); 
 }
@@ -61,3 +67,43 @@ section{
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+/* button send */
+#btn-submit {
+    background-color: var(--section-green);
+}
+/* star */
+.star-light {
+    position: relative;
+    font-size: 2rem;
+}
+.star-light:before {
+    content: "" ;
+    display: inline-block;
+    height: .1rem;
+    width: 10rem;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    top: calc(50% - .05rem);
+    left: -11rem;
+}
+
+
+.star-light:after {
+    content: "" ;
+    display: inline-block;
+    height: .1rem;
+    width: 10rem;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    top: calc(50% - .05rem);
+    left: 4rem;
+}
+
+.star-light.text-white::before,
+.star-light.text-white::after
+    {
+        background-color: white;
+    }
+
